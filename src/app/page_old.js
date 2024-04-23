@@ -1,22 +1,12 @@
+import Image from "next/image";
 import styles from "./page.module.css";
+import {Box} from "@mui/material"
 import Landing from "@/pages/Landing";
-import Menu from "@/pages/Menu";
-import Menu2 from "@/pages/Menu2";
-import { Box, ChakraProvider, Container } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <ChakraProvider>
-      <main className={styles.main}>
-        <Box width={["90%"]} margin={"auto"}>
-          <div className={styles.landing}>
-            <Landing />
-          </div>
-          <Menu />
-          <Menu2 />
-        </Box>
-
-        {/* <Box className={styles.description}>
+    <main className={styles.main}>
+      <Box className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
@@ -102,8 +92,7 @@ export default function Home() {
           </p>
           
         </a>
-      </div> */}
-      </main>
-    </ChakraProvider>
+      </div>
+    </main>
   );
 }
