@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from "@/images/Logo.png"
 import Image from 'next/image'
 import { Box, Grid, GridItem, Stack, StackDivider, Text, VStack } from '@chakra-ui/react'
-import { itemCost25, itemCost30, itemCost35, itemCost40 } from './lovs'
+import { itemCost25, itemCost30, itemCost35, itemCost40 } from '../contants/lovs'
 
 /* pound sign = £ */
 
