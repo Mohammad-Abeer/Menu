@@ -13,7 +13,7 @@ export default function Home() {
             <Landing />
           </div>
           <Menu />
-          <Menu2 />
+          // <Menu2 />
         </Box>
 
         {/* <Box className={styles.description}>
