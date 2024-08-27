@@ -5,7 +5,6 @@ import Menu from "@/pages/Menu";
 import Menu2 from "@/pages/Menu2";
 import { useState } from "react";
 import { Box, Button } from "@chakra-ui/react";
-import styles from "./page.module.scss";
 import customStyle from "./customStyles.module.scss";
 
 const RenderMenus = () => {

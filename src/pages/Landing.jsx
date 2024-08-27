@@ -5,13 +5,9 @@ import { Flex } from "@chakra-ui/react";
 
 const Landing = () => {
   return (
-    <Flex alignItems={"center"} height={"100vh"}>
-      <Image
-        alt="logo"
-        src={LogoMain}
-        style={{ width: "15rem", height: "auto" }}
-      />
-    </Flex>
+      <Flex alignItems={"center"} height={"100vh"}>
+        <Image alt="logo" src={LogoMain} style={{ width: "15rem", height: "auto" }} />
+      </Flex>
   );
 };
 

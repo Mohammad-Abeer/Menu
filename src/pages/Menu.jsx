@@ -34,7 +34,7 @@ const Menu = () => {
   }
 
   return (
-    <Box my={"10rem"} style={{ position: "relative" }}>
+    <Box mt={"5rem"} mb={"10rem"} style={{ position: "relative" }}>
 
       <Box display={["none", "none", "block"]} style={{ position: "absolute", left: "10px", }}>
         <Image alt='logo' src={Logo} style={{ width: "8rem", height: "auto" }} />
