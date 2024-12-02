@@ -15,7 +15,6 @@ const RenderMenus = () => {
         <Landing />
       </div>
 
-      {/* 4th button */}
       <section className={customStyle.buttons}>
         <Button
           id={customStyle.buttonsId}
@@ -26,7 +25,6 @@ const RenderMenus = () => {
         </Button>
       </section>
 
-      {/* ------------------------------- */}
       {!menuStyle ? <Menu /> : <Menu2 />}
     </Box>
   );
