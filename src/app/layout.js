@@ -7,8 +7,8 @@ const lato = Lato({
 });
 
 export const metadata = {
-  title: "Shisha - Menu",
-  description: "A NextJs app",
+  title: "Select Lounge",
+  description: "Shisha - Menu",
 };
 
 export default function RootLayout({ children }) {
