@@ -1,11 +1,10 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Lato } from "next/font/google";
 
 const lato = Lato({
   weight: ["100", "400", "700"],
-  subsets: ["latin"]
-})
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Shisha - Menu",
